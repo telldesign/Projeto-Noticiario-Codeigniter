@@ -1,0 +1,12 @@
+<?php
+defined('BASEPATH') OR exit('erro');
+
+class Base extends CI_Controller {
+    function __construct(){
+        parent::__construct();
+    }
+
+    public function index(){
+        //método padrão
+    }
+}
